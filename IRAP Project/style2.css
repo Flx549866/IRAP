@@ -1,0 +1,29 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #222222;
+}
+
+.sticky-div {
+  position: sticky;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.start {
+  height: 100px;
+}
+
+.end {
+  height: 500px;
+}
+
+div.container {
+  background-color: white;
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  z-index: 10;
+  top: 30%;
+  left: 45%;
+  margin: -100px 0 0 -150px;
+}
